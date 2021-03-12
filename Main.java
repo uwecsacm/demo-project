@@ -8,5 +8,9 @@ public class Main {
         System.out.print("Enter your name:");
         String name = in.nextLine();
         System.out.println("Your name is " + name);
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
     }
 }
